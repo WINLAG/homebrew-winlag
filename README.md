@@ -1,1 +1,1 @@
-# homebrew-winlag
+# WINLAG macOS Homebrew
