@@ -2,9 +2,9 @@ class Winlag < Formula
     desc "WINLAG"
     homepage "https://www.winlag.com/"
     url "https://www.winlag.com/download/macos" 
-    sha256 "3809d13dc4aa8f79e8c428766f27352ab999a43b89e11bdd5657ca2498054350"
+    sha256 "b295c548b17b41ea2e5b6298440548210076abb6f724335392e9718926e00674"
   
-    version "0.3"
+    version "0.4"
   
     depends_on "openssl@3"
     depends_on "cryptopp"
