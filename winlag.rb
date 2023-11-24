@@ -14,7 +14,7 @@ class Winlag < Formula
 
     def install
         bin.install "winlag"
-        bin.install_symlink "#{bin}/winlag" => "winlag-03PP"
+        bin.install_symlink "#{bin}/winlag" => "winlag-04PP"
         bin.install "fonts"
         bin.install "workspaces"
         bin.install "data"
