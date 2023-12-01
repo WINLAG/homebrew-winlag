@@ -2,9 +2,9 @@ class Winlag < Formula
     desc "WINLAG"
     homepage "https://www.winlag.com/"
     url "https://www.winlag.com/download/macos" 
-    sha256 "b295c548b17b41ea2e5b6298440548210076abb6f724335392e9718926e00674"
+    sha256 "e6296cf7469d618c2fdca635e89ad479ad76f7cf41ef2683995dfd3c80a2f68c"
   
-    version "0.4"
+    version "0.5"
   
     depends_on "openssl@3"
     depends_on "cryptopp"
@@ -14,7 +14,7 @@ class Winlag < Formula
 
     def install
         bin.install "winlag"
-        bin.install_symlink "#{bin}/winlag" => "winlag-04PP"
+        bin.install_symlink "#{bin}/winlag" => "winlag-05PP"
         bin.install "fonts"
         bin.install "workspaces"
         bin.install "data"
